@@ -1,0 +1,259 @@
+@charset"utf-8";
+/*
+Theme Name: Clevernotes
+Description: Clevernotes
+Version: 1.0
+Author: Nevada
+Author URI: http://www.nevada.ie/
+*/
+body {
+	color: #333;
+	font: 13px/1.7 Arial, Helvetica, sans-serif;
+}
+
+a, a > * {
+	color: #B81F26;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 8px 0 2px 0;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 22px;	
+	line-height: 30px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4, h5, h6 {
+	font-size: 14px;
+}
+
+blockquote {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/comments.png);
+	background-repeat: no-repeat;
+	background-position: 12px 16px;
+	background-color: #F4F4F4;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 1px 1px 6px #FFF;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		   border-radius: 5px;	
+	font-size: 19px;
+	line-height: 1.6;
+	padding: 10px 20px 15px 50px;		
+	position: relative;
+	behavior: url(/wp-content/themes/clevernotes/PIE.php);	
+}
+
+	blockquote.simple {
+		background: none;
+		border-left: 2px solid #ddd;
+		color: #bbb;
+		font-size: 13px;
+		margin: 0;
+		padding: 0 0 0 10px;
+	}
+
+	blockquote p:last-of-type { margin-bottom: 0; }
+
+blockquote.pullquote_float_left, blockquote.pullquote_float_right {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/quote.png);
+	background-repeat: no-repeat;
+	background-position: 12px 16px;
+	padding: 5px 15px 15px 55px;
+	width: 280px;
+}
+	blockquote.pullquote_float_left {
+		float: left;
+		margin: 10px 20px 10px 0 !important;
+	}
+	
+	blockquote.pullquote_float_right {
+		float: right;
+		margin: 10px 0 10px 20px !important;
+	}
+
+ul.tick_list li {
+	list-style: url(/wp-content/themes/clevernotes/images/icons/tick.png);
+}
+
+ul.star_list li {
+	list-style: url(/wp-content/themes/clevernotes/images/icons/grey_star.png);
+}
+
+ul.red_star_list li {
+	list-style: url(/wp-content/themes/clevernotes/images/icons/red_star.png);
+}
+
+ul.green_star_list li {
+	list-style: url(/wp-content/themes/clevernotes/images/icons/green_star.png);
+}
+
+ul.gold_star_list li {
+	list-style: url(/wp-content/themes/clevernotes/images/icons/gold_star.png);
+}
+
+div.warning_box, div.alert_box, div.info_box, div.cross_box, div.tick_box, div.standard_box, div.x_box {
+	background-repeat: no-repeat;
+	background-position: 15px 15px;
+	background-color: #F2F2F2;
+	border: 1px solid #DFDFDF;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		   border-radius: 5px;
+	line-height: 1.6;
+	margin-bottom: 15px;
+	padding: 10px 20px 15px 50px;	
+	position: relative;
+	behavior: url(/wp-content/themes/clevernotes/PIE.php);	
+}
+	div.x_box p:last, div.alert_box p:last, div.info_box p:last, div.cross_box p:last, div.tick_box p:last {
+		margin-bottom: 0;	
+	}
+	
+div.standard_box {
+	padding: 15px 20px;	
+}
+
+div.x_box {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/x_circle.png);
+	background-color: #FDB0B5;
+}
+
+div.tick_box {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/tick_circle.png);
+	background-color: #CFE7A9;
+}
+
+div.warning_box {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/warning.png);
+	background-color: #FFE2BF;
+}
+
+div.alert_box {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/alert.png);
+	background-color: #FDB0B5;
+}
+
+div.info_box {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/info_circle.png);
+	background-color: #C5E6FA;	
+}
+
+div.cross_box {
+	background-image: url(/wp-content/themes/clevernotes/images/icons/cross_circle.png);
+	box-shadow: inset 1px 1px 6px #FFF;
+	position: relative;
+	behavior: url(/wp-content/themes/clevernotes/PIE.php);		
+}
+
+.dropcap {
+	display: inline-block;
+	float: left;
+	font-size: 44px;
+	font-weight: 600;
+	height: 44px;
+	line-height: 44px;
+	margin: 0 7px 0 0;
+	text-align: center;
+}
+
+div.colorbox p, div.plainbox p {
+	padding: 	0 8px 5px 8px;
+}
+
+div.plainbox {
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		   border-radius: 5px;	
+	box-shadow: inset 1px 1px 2px #FFF;		   
+	position: relative;
+	behavior: url(/wp-content/themes/clevernotes/PIE.php);
+}
+
+div.colorbox {
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		   border-radius: 5px;	
+	-moz-box-shadow: 5px 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+			box-shadow: 2px 2px 5px #999;	
+	position: relative;
+	behavior: url(/wp-content/themes/clevernotes/PIE.php);
+}
+
+	div.colorbox h3 {
+		margin-top: 0;
+		-webkit-border-radius: 5px 5px 0 0;
+		   -moz-border-radius: 5px 5px 0 0;
+			   border-radius: 5px 5px 0 0;			   	
+		padding: 5px;
+		position: relative;
+		text-align: center;
+		behavior: url(/wp-content/themes/clevernotes/PIE.php);
+	}
+
+/* IMAGES */
+
+.align-center, .aligncenter { margin-left: auto; margin-right: auto; text-align: center; }
+
+.align-left, .alignleft { float: left; }
+
+	img.align-left, img.alignleft  { display: block; margin-bottom: 15px; margin-right: 15px; }
+
+.align-right, .alignright { float: right; }
+
+	img.align-right, img.alignright, .alignright img, .align-right img { display: block; margin-bottom: 15px; margin-left: 15px; }
+	
+/* FONTS */	
+@font-face {
+    font-family: 'swanky_and_moo_mooregular';
+    src: url('../fonts/swanky_and_moo_moo-webfont.eot');
+    src: url('../fonts/swanky_and_moo_moo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swanky_and_moo_moo-webfont.woff') format('woff'),
+         url('../fonts/swanky_and_moo_moo-webfont.ttf') format('truetype'),
+         url('../fonts/swanky_and_moo_moo-webfont.svg#swanky_and_moo_mooregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('../fonts/architectsdaughter-webfont.eot');
+    src: url('../fonts/architectsdaughter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/architectsdaughter-webfont.woff') format('woff'),
+         url('../fonts/architectsdaughter-webfont.ttf') format('truetype'),
+         url('../fonts/architectsdaughter-webfont.svg#architects_daughterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'waiting_for_the_sunriseRg';
+    src: url('../fonts/waitingforthesunrise-webfont.eot');
+    src: url('../fonts/waitingforthesunrise-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/waitingforthesunrise-webfont.woff') format('woff'),
+         url('../fonts/waitingforthesunrise-webfont.ttf') format('truetype'),
+         url('../fonts/waitingforthesunrise-webfont.svg#waiting_for_the_sunriseRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.swanky_and_moo_moo { font-family: 'swanky_and_moo_mooregular', cursive; }
+
+.waiting_for_the_sunrise { font-family: 'waiting_for_the_sunriseRg', cursive; }
+
+.architects_daughter { font-family: 'architects_daughterregular', cursive; }
